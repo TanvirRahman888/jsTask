@@ -33,6 +33,7 @@
 
 // console.log(changexX);
 //---------------------------------------
+//If a given string has either x, replace x by y. if the given string has X, replace it by Y.
 let cString ="XoxoX YuyuY"
 let splitcString = cString.split("");
 console.log(splitcString);
@@ -59,4 +60,4 @@ for(let  key of cpX){
 }
 console.log(splitcString);
 let nString=splitcString.join("");
-console.log(nString);
+console.log(cString, " --> ",nString);
