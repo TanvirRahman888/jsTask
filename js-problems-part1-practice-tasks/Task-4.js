@@ -1,7 +1,7 @@
 //Write a function to find the longest word in a given string.
 function longWord(Sentence){
     let words=Sentence.split(' ');
-    let len=[];  //Storing words lengths
+    let len=[];  //For Checking words lengths
     console.log("Words in the Sentence : ",words);
     for (let i = 0; i < words.length; i++) {
         len.push(words[i].length);        
